@@ -3,46 +3,31 @@ div.cabecera{
     justify-content: space-around;
     background-color: darkgray;
     align-items: center;
-
-    position: sticky;
+    background-color: gray;
+    position: sticky !important;
     top: 0px;
     z-index: 1;
 }
 
-ol.lista-cabecera {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-}
-
-ol.lista-aside {
-    list-style-type: none;
-}
-
-li {
-    padding: 10px;
-    height: 100%;
-    width: 100%;
-}
-
-header {
-    text-align: center;
-}
-
-li:hover {
-    background-color: gray;
-}
-
-section {
-   
+.nav-link {
+    color: black;
 }
 
 aside {
-    background-color: darkcyan;
-    height: 60%;
+    background-color: ghostwhite;
+    text-align: center;
+    height: 100%;
+    margin:10px;
+    top: 15%;
+    position: sticky !important;
 }
 
 article {
     background-color: rgb(247, 247, 247);
     border: solid black 1px;
+    margin: 10px;
+}
+
+footer{
+    text-align: center;
 }
