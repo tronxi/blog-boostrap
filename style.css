@@ -1,0 +1,48 @@
+div.cabecera{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    align-items: center;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+ol.lista-cabecera {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+ol.lista-aside {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+li:hover {
+    background-color: gray;
+}
+
+section {
+   
+}
+
+aside {
+    background-color: darkcyan;
+    height: 60%;
+}
+
+article {
+    background-color: rgb(247, 247, 247);
+    border: solid black 1px;
+}
