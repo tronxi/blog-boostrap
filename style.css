@@ -13,6 +13,11 @@ div.cabecera{
     color: black;
 }
 
+article.articulo:hover {
+    transform: scale(1.25);
+    z-index: 1;
+}
+
 aside {
     background-color: ghostwhite;
     text-align: center;
@@ -30,4 +35,10 @@ article {
 
 footer{
     text-align: center;
+    font-style: italic;
+}
+
+button.boton {
+    visibility: hidden;
+    margin: 2px;
 }
