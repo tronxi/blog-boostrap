@@ -20,6 +20,7 @@ article.articulo:hover {
 
 aside {
     background-color: ghostwhite;
+    border-radius: 10px;
     text-align: center;
     height: 100%;
     margin:10px;
@@ -30,6 +31,7 @@ aside {
 article {
     background-color: rgb(247, 247, 247);
     border: solid black 1px;
+    border-radius: 10px;
     margin: 10px;
 }
 
