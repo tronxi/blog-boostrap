@@ -18,14 +18,14 @@ article.articulo:hover {
     z-index: 1;
 }
 
-aside {
+aside#as {
     background-color: ghostwhite;
     border-radius: 10px;
     text-align: center;
     height: 100%;
     margin:10px;
     top: 15%;
-    position: sticky !important;
+    position: sticky;
 }
 
 article {
