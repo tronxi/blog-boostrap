@@ -13,9 +13,12 @@ div.cabecera{
     color: black;
 }
 
-article.articulo:hover {
-    transform: scale(1.25);
-    z-index: 1;
+@media screen and (min-width: 992px) 
+{
+    article.articulo:hover {
+        transform: scale(1.25);
+        z-index: 1;
+    }
 }
 
 aside#as {
